@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.col_1{
+    color: rgb(255, 0, 0);
+}
+.nav-item, .nav-item{
+    font-size: 18px;
+    font-weight: 600;
+}
+.get_btn{
+    padding: 0px 30px 0px 30px !important;
+    font-weight: 600 !important;
+}
+.bg-light1{
+    background-color: white;
+}
+.sec1{
+    z-index: 1;
+    position: relative;
+    height:100vh;
+    background-image: url(../assests/img/hero-bg\ \(1\).jpg);
+    background-size: cover;
+}
+.sec1::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background:rgb(0 0 0 / 65%);
+    position: absolute;
+    z-index: -1;
+
+
+}
+.nav-item, .nav-item :hover{
+    color: red !important;
+}
+.metter{
+    margin-top: 22%;
+}
+.digitals{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+.imgsss{
+    width: 70%;
+    filter: grayscale(1);
+    opacity: 0.6;
+    transition: all 0.3s;
+}
+.imgsss:hover{
+    filter: grayscale(0);
+    opacity: 1;
+}
+.dignissimoss{
+    line-height: 43px;
+}
+.sec3{
+   transform:skewy(-3deg);
+    background-size: cover;
+    padding: 4%;
+   background-color: rgb(25, 25, 25);
+}
+.trans{
+    transform: skewY(3deg);
+}
+.btn3:hover{
+    background-color: rgba(201, 4, 4, 0.724);
+}
+.btn3{
+    font-size: 15px;
+    font-weight: 600;
+}
+.box1{
+   
+    width: auto;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    line-height: 35px;
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box2{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: #ffffff;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+   display: inline-block;
+   position: absolute;
+   top: -32px;
+}
+.Hourss{
+    margin:6% 0 5% 0 !important;
+}   
+.ests{
+    border: 1px solid black;
+    padding: 30px 5px 30px 5px ;
+    font-weight: 600;
+}
+.title1:hover{
+ text-decoration: underline;
+}
+.portsec{
+    margin-top: 6%;
+}
+.webbutton:hover{
+    background-color: rgb(186, 40, 40);
+    color: #ffffff;
+}
+.portfol{
+    line-height: 20px;
+    padding: 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    margin: 20px;
+}
+.Proin{
+    margin-top: -10px;
+}
+.delll{
+    color: rgb(157, 157, 157);
+}
+.mapp{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px 10px 10px 10px;
+}
+.gmail{
+    padding: 20px 60px 10px 60px;
+}
+.callll{
+    padding: 20px 100px 10px 100px;
+    width: 100% ;
+}
+.textarae1{
+    width: 75%;
+    height: 200px;
+    padding: 20px;
+}
+.boxs{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+margin: 25px;
+margin-top: -7px;
+
+}
+.footerr{
+    background-color: rgb(25, 25, 25);
+}
+@media (max-width:992px) {
+    .Hourss{
+        margin:14% 0 5% 0 !important;
+    }
+}
+@media (max-width:768px) {
+    .boxs{
+        width: 100%;
+        margin: 0;
+    }
+}
