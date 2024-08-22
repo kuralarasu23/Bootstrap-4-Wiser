@@ -118,6 +118,7 @@
 .webbutton:hover{
     background-color: rgb(186, 40, 40);
     color: #ffffff;
+    cursor: not-allowed;
 }
 .portfol{
     line-height: 20px;
